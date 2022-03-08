@@ -1,7 +1,7 @@
-package br.com.studyproject.primeanimesapi.mapper;
+package br.com.studyproject.personapi.mapper;
 
-import br.com.studyproject.primeanimesapi.dto.request.PersonDTO;
-import br.com.studyproject.primeanimesapi.model.Person;
+import br.com.studyproject.personapi.dto.request.PersonDTO;
+import br.com.studyproject.personapi.model.Person;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

@@ -1,6 +1,6 @@
-package br.com.studyproject.primeanimesapi.dto.request;
+package br.com.studyproject.personapi.dto.request;
 
-import br.com.studyproject.primeanimesapi.enums.PhoneType;
+import br.com.studyproject.personapi.enums.PhoneType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,13 +1,13 @@
-package br.com.studyproject.primeanimesapi;
+package br.com.studyproject.personapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PrimeanimesapiApplication {
+public class PersonapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PrimeanimesapiApplication.class, args);
+		SpringApplication.run(PersonapiApplication.class, args);
 	}
 
 }

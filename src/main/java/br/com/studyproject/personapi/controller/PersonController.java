@@ -1,8 +1,8 @@
-package br.com.studyproject.primeanimesapi.controller;
+package br.com.studyproject.personapi.controller;
 
-import br.com.studyproject.primeanimesapi.dto.MessageResponseDTO;
-import br.com.studyproject.primeanimesapi.dto.request.PersonDTO;
-import br.com.studyproject.primeanimesapi.service.PersonService;
+import br.com.studyproject.personapi.dto.MessageResponseDTO;
+import br.com.studyproject.personapi.dto.request.PersonDTO;
+import br.com.studyproject.personapi.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

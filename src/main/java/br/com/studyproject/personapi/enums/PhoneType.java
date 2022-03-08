@@ -1,4 +1,4 @@
-package br.com.studyproject.primeanimesapi.enums;
+package br.com.studyproject.personapi.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

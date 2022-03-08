@@ -1,9 +1,8 @@
-package br.com.studyproject.primeanimesapi.dto;
+package br.com.studyproject.personapi.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 @Builder

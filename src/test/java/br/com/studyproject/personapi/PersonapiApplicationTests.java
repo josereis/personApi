@@ -1,10 +1,10 @@
-package br.com.studyproject.primeanimesapi;
+package br.com.studyproject.personapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PrimeanimesapiApplicationTests {
+class PersonapiApplicationTests {
 
 	@Test
 	void contextLoads() {

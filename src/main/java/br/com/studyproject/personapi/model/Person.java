@@ -1,4 +1,4 @@
-package br.com.studyproject.primeanimesapi.model;
+package br.com.studyproject.personapi.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

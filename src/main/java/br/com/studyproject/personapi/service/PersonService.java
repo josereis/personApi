@@ -1,10 +1,10 @@
-package br.com.studyproject.primeanimesapi.service;
+package br.com.studyproject.personapi.service;
 
-import br.com.studyproject.primeanimesapi.dto.MessageResponseDTO;
-import br.com.studyproject.primeanimesapi.dto.request.PersonDTO;
-import br.com.studyproject.primeanimesapi.mapper.PersonMapper;
-import br.com.studyproject.primeanimesapi.model.Person;
-import br.com.studyproject.primeanimesapi.repository.PersonRepository;
+import br.com.studyproject.personapi.dto.MessageResponseDTO;
+import br.com.studyproject.personapi.dto.request.PersonDTO;
+import br.com.studyproject.personapi.mapper.PersonMapper;
+import br.com.studyproject.personapi.model.Person;
+import br.com.studyproject.personapi.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
