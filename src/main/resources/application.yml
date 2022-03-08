@@ -9,6 +9,6 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: "jdbc:postgresql://localhost:5432/primeanimesapi_dev"
-    username: postgres
-    password: maida@maida
+    url: <DATABASE_URL>
+    username: <DATABASE_USER>
+    password: <DATABASE_PASSWORD>
