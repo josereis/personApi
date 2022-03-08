@@ -1,0 +1,14 @@
+app:
+  name: Prime Animes Api
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: "jdbc:postgresql://localhost:5432/primeanimesapi_dev"
+    username: postgres
+    password: maida@maida
