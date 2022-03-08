@@ -6,24 +6,20 @@ import br.com.studyproject.personapi.exception.PersonNotFoundException;
 import br.com.studyproject.personapi.mapper.PersonMapper;
 import br.com.studyproject.personapi.model.Person;
 import br.com.studyproject.personapi.repository.PersonRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
+@AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonService {
     private PersonRepository personRepository;
     private final PersonMapper personMapper = PersonMapper.INSTANCE;
 
-    @Autowired
-    public PersonService(PersonRepository personRepository) {
-        this.personRepository = personRepository;
-    }
-
-    public List<PersonDTO> listAll() {
+   public List<PersonDTO> listAll() {
         List<Person> allPeople = personRepository.findAll();
 
         return allPeople.stream().map(personMapper::toDTO).collect(Collectors.toList());
